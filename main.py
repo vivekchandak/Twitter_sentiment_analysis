@@ -10,11 +10,11 @@ import matplotlib.pyplot as plt
 
 # api keys taken from twitter developer account
 
-api_key= "japV6GB7REZmvQfwjE5fQjr8h"
-api_key_secret = "NmQS4A8oB7x9Zd3AQ6YEjqwlhuOXY0EnVCLwJACVBBWhxvAaNb"
+api_key= "use your own"
+api_key_secret = "use your own"
 # bearer token AAAAAAAAAAAAAAAAAAAAAKakjAEAAAAAIzTWloj5UyNndvu353S79lUL%2Fqg%3D8sC6EdZFDpf30ypfqVwjN72Blwu6imtCdBnmeXTEM1577n0eQR
-access_token ="1243190819084996615-NJQPMNQ5gkH6M6gWfm940x6TX0kXAz"
-access_token_secret ="y9yNFRO26WkwmkZLccxYs1bJ1p9PhsmWjTRf6IGVUSKLR"
+access_token ="use your own"
+access_token_secret ="use your own"
 
 auth_handler = tweepy.OAuthHandler(consumer_key=api_key, consumer_secret=api_key_secret)
 auth_handler.set_access_token(access_token, access_token_secret)
